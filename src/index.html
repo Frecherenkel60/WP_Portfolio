@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Kevin Rieger</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body style="width: 100vw;">
+    <nav>
+        <ul>
+            <li class="navbar"><a href="#">Home</a></li>
+            <li class="navbar"><a href="#">Über mich</a></li>
+            <li class="navbar"><a href="#">Projekte</a></li>
+            <li class="navbar"><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="presentation">
+            <h1>Kevin Rieger</h1>
+            <h2>Webentwickler</h2>
+        </div>
+
+        <div class="article-block">
+            <div class="article-element">
+                <h3>Über mich</h3>
+                <ol>
+                    <li class="list">Name: Kevin Rieger</li>
+                    <li class="list">Alter: 22</li>
+                    <li class="list">Wohnort: 68259 Mannheim-Wallstadt</li>
+                    <li class="list">Beruf: Dualer Student @SAP</li>
+                </ol>
+            </div>
+            <div class="article-element">
+                <h3>Hobbies</h3>
+                <ol id="hobby-list">
+                    <li class="list">Gaming</li>
+                    <li class="list">Freunde treffen</li>
+                    <li class="list">Programmieren</li>
+                    <li class="list">Musik hören</li>
+                    <li class="list">Gym</li>
+                </ol>
+                <form>
+                    <input type="text" name="hobby" id="hobby" placeholder="Hobby hinzufügen">
+                    <button type="submit" id="hobby-button">Hobby hinzufügen</button>
+                </form>
+            </div>
+            <div class="article-element">
+                <h3>Erfahrung mit Webentwicklung</h3>
+                <ol id="skill-list">
+                    <li class="list">HTML</li>
+                    <li class="list">CSS</li>
+                    <li class="list">JavaScript/TypeScript</li>
+                    <li class="list">React</li>
+                    <li class="list">Redux</li>
+                    <li class="list">MySQL</li>
+                </ol>
+                <form>
+                    <input type="text" name="skill" id="skill" placeholder="Skill hinzufügen">
+                    <button type="submit" id="skill-button">Skill hinzufügen</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
